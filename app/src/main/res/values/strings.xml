@@ -1,0 +1,22 @@
+<resources>
+    <string name="google_Maps_API_KEY">AIzaSyCJ_dSFQTEdaAcZJrGcU5hgi8JHAJSFeTE</string>
+    <string name="app_name">MpYeni</string>
+
+    <string-array name="muster_istek">
+        <item>Mutfak</item>
+        <item>Banyo</item>
+        <item>Yatak Odası</item>
+        <item>Çocuk Odası</item>
+        <item>Diğer</item>
+    </string-array>
+    <string name="mphakkimizda">MobilyaPlan yerel mobilya imalatçıları için küresel bir platformdur. Dünyanın herhangi bir yerinde yapılabilen dijital mobilya tasarım ve planlarını global bir yerel üretici ağı aracılığıyla dağıtıyoruz. Müşterileri bir tasarım kütüphanesine ve kendisine en yakın bir mobilya imalatçısına bağlayarak, mobilyalarını istediği gibi plan ve projelere uygun olarak yapılmasına yardımcı oluyoruz.
+
+​
+
+Tasarımcılar ve yapımcıları sıkıştırmaya eğilimli geleneksel endüstriden farklı olarak, iş modelimiz tedarik zincirindeki herkesin adil bir şekilde desteklenmesini ve ödüllendirilmesini sağlıyor. Tasarımcılar küresel bir dağıtım kanalı elde ediyor Üreticiler karlı işler ve yeni müşteriler kazanıyor Tasarımcı ürün etiketi olmadan, kitlesel üretim için daha sosyal, çevre dostu bir alternatif ve özel ürünler satın almak için ekonomik bir yoldan tasarımcı ürünleri elde edersiniz. İşyeri mobilyalarına odaklanıyoruz çünkü mevcut dijital üretim teknolojisi için en uygun olanı. Ancak, mobilya sadece bir başlangıçtır. Bunu gerçeğe dönüştürmek için bize katılmanızı isteriz. Opendesk ile ilgilendiğini düşündüğünüz birisini biliyorsanız, özellikle de tasarımcı, yapımcı ya da bir çalışma alanına sığmaya çalışıyorsanız, lütfen bunları bize bildirin.</string>
+
+    <string name="rifat_description">ODTÜ İnşaat Mühendisliği mezunu, yaklaşık 20 senedir profesyonel olarak mutfak mobilya ve tasarım alanlarında çalışmış olup ülkemizin yetiştirdiği en iyi mühendislerden birisidir. 7 sene Fırat Üniversitesi\'nde öğretim görevliliği yapmıştır. öğretim görevliliğinin ardından kendisini tasarım ve üretim alanında geliştirmiştir. Son olarakta tasarım alanında kazandığı deneyimleri ve yaptığı yenilikleri siz değerli müşterilerimiz ile paylaşmaktadır.</string>
+    <string name="yusuf_description">Çankaya Üniversitesi Endüstri Mühendisliği mezunudur. Kendisi 5 senedir profesyonel olarak tasarım ve üretim alanında çalışmaktadır. Şuan da MobilyaPlan bünyesinde aktif olarak çalışmakta olup yaptığı tasarımları ve çözüm ortaklıklarını siz değerli müşterilerimizle paylaşacaktır.</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>

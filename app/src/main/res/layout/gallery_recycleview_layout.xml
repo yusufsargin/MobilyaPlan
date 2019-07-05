@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="8dp"
+        app:cardCornerRadius="20dp"
+        app:cardPreventCornerOverlap="false"
+        android:id="@+id/gallery_cardview">
+
+
+
+            <ImageView
+
+                android:padding="2dp"
+                android:id="@+id/product_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/render11"/>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/trasperentblack"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:paddingLeft="15dp"
+                android:text="İsim"
+                android:id="@+id/product_name_textview"
+                android:textColor="@color/beyaz"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/satinal_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/satinal_2"
+                android:backgroundTint="@color/beyaz"
+                android:gravity="center"
+                android:paddingBottom="5dp" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

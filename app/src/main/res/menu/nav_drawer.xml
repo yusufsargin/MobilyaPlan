@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_View">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/anasayfa"
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/mpBaglan"
+            android:title="Mp Üye Bul" />
+        <item
+            android:id="@+id/website"
+            android:title="Website" />
+        <item android:id="@+id/gallery"
+            android:title="Gallery"/>
+        <item
+            android:id="@+id/mpNedir"
+            android:title="MobilyaPlan Nedir?"/>
+        <item  android:id="@+id/controlpannel"
+            android:title="Kontrol Paneli"
+            />
+
+
+    </group>
+
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/bizeulas"
+                android:title="Bize Ulaş" />
+            <item
+                android:id="@+id/hakkimizda"
+                android:title="Hakkımızda"/>
+        </menu>
+
+    </item>
+
+    <item android:title="Hesap" >
+        <menu>
+        <item   android:id="@+id/logout"
+            android:title="Çıkış"/>
+        </menu>
+    </item>
+
+
+</menu>

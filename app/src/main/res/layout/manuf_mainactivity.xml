@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_marginBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="40dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="4dp"
+    app:cardPreventCornerOverlap="false"
+   app:cardBackgroundColor="@color/common_google_signin_btn_text_light_default"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true">
+
+
+        <LinearLayout
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@color/cardview_dark_background"
+                android:id="@+id/manuf_Image"/>
+
+            <TextView
+                android:id="@+id/manuf_name_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+
+                android:textColor="@color/beyaz"
+                android:gravity="center"
+                android:text="Tugip Mobilya"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

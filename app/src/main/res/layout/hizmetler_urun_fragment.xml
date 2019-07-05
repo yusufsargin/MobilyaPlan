@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:gravity="center|start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/goback"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:textSize="35sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Proje Adı"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageitem_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/render11" />
+
+            <TextView
+                android:id="@+id/title_image1_textview"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageitem_1"
+                android:layout_alignBottom="@+id/imageitem_1"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="60dp"
+                android:gravity="center"
+                android:text="Yatak Odası"
+                android:textColor="@color/beyaz"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_image1_textview"
+                android:layout_alignStart="@+id/title_image1_textview"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-55dp"
+                android:paddingLeft="5dp"
+                android:text="Descitptirn"
+                android:textColor="@color/beyaz"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageitem_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/render11" />
+
+            <TextView
+                android:id="@+id/title_image2_textview"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageitem_2"
+
+                android:layout_alignBottom="@+id/imageitem_2"
+                android:layout_marginStart="0dp"
+
+                android:layout_marginBottom="60dp"
+                android:gravity="center"
+                android:text="Yatak Odası"
+                android:textColor="@color/beyaz"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_image2_textview"
+                android:layout_alignStart="@+id/title_image2_textview"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-55dp"
+                android:paddingLeft="5dp"
+                android:text="Descitptirn"
+                android:textColor="@color/beyaz"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farklı Renkler"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="90dp"
+            android:layout_height="120dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/render11"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/farkli_renk_1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/farkli_renk_1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="51dp"
+                    android:gravity="center"
+                    android:text="Kırmızı"
+                    android:textColor="@color/beyaz"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

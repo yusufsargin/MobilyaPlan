@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="MP"
+            android:gravity="center"
+            android:textSize="30sp"/>
+
+
+        <ImageView
+            android:id="@+id/sldImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/checked"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:text="İmalatçı Seç"
+            android:gravity="center"
+            android:id="@+id/title"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:text="İnternet sitemize üye size en yakın mobilya imalatçılarımız ile bağlantıya geçerek ürün ve  fiyat konusunda anlaşın"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:id="@+id/description"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="start"
+                    android:background="@drawable/bg_button"
+                    android:text="Geri"
+                    android:textColor="@color/beyaz"
+                    android:id="@+id/geriButton"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:background="@drawable/bg_button"
+                    android:id="@+id/ileriButton"
+                    android:textColor="@color/beyaz"
+
+                    android:text="İleri" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

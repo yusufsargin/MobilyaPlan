@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="KAYIT"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mplogo"/>
+
+
+
+
+    <EditText
+        android:paddingLeft="15dp"
+        android:background="@drawable/bg_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="İsim"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/isim_edittext"
+        android:inputType="text"/>
+
+    <EditText
+        android:background="@drawable/bg_edittext"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="15dp"
+        android:hint="Soyad"
+        android:id="@+id/soyisim_edittext"
+        android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/phonenumber_edittext_signupfragment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Telefon Numarası"
+            android:inputType="phone"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"/>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="E-mail"
+        android:paddingLeft="10dp"
+        android:id="@+id/email_edittext_signinFragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:background="@drawable/bg_edittext"
+
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:background="@drawable/bg_edittext"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Şifre"
+        android:id="@+id/sifre_edittext_signinFragment"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:paddingLeft="15sp"
+        android:id="@+id/companyname_edittext_signupfragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Şirket ismi"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/bg_edittext"
+        />
+
+
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_button"
+        android:text="Kayıt Ol"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/kayityap_siginFragment"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

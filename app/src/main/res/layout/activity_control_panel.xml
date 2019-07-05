@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yusufsargin.mpyeni.ControlPanel"
+    android:id="@+id/drawerlayout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="s">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/toolbar"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:elevation="4dp"
+            ></android.support.v7.widget.Toolbar>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_Container">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center|top">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bg_button" />
+
+                <TextView
+
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="TL"
+                    android:textSize="20sp"
+                    android:textColor="@color/beyaz"
+
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintHorizontal_bias="0.468"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="@+id/imageView2"
+                    app:layout_constraintVertical_bias="0.373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="50"
+                    android:textColor="@color/beyaz"
+                    android:id="@+id/mp_tl_textview"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                    app:layout_constraintEnd_toEndOf="@+id/textView4"
+                    app:layout_constraintStart_toStartOf="@+id/textView4"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Bekleyen Müşteriler"
+                android:gravity="center"
+
+                android:layout_marginTop="20dp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:id="@+id/recycleWaitingCustomer"
+                    android:background="@drawable/border_blac_white"
+
+                    ></android.support.v7.widget.RecyclerView>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ulaşılan Müşteriler"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    />
+                <android.support.v7.widget.RecyclerView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:id="@+id/recycleContactCustomer"
+                    android:background="@drawable/border_blac_white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    >
+
+
+                </android.support.v7.widget.RecyclerView>
+
+                <Button
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Tl Satın Al"
+                    android:textColor="@color/beyaz"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/tl_buy_button"
+                    android:background="@drawable/bg_button"
+                    android:layout_gravity="center"
+                    />
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/beyaz"
+                    android:text="İletişime Geç"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/error_button"
+                    android:background="@drawable/bg_button"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_drawer"
+        ></android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

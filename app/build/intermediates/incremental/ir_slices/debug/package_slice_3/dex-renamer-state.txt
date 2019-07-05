@@ -1,0 +1,4 @@
+#Tue Jul 02 13:04:08 EET 2019
+base.0=C\:\\Users\\YUSUF\\Desktop\\son mobil\\son mobil\\mp_degisim_ankara\\MpYeni\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

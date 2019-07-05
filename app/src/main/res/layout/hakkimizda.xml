@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:padding="20dp"
+        android:id="@+id/mptitle_textview"
+        android:text="MobilyaPlan Yerel imalatçılar ile müşteriyi bir araya getiren global bir platformdur"
+        android:textColor="@color/kumrengi"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:id="@+id/mpdec_textview"
+        android:layout_below="@+id/mptitle_textview"
+        android:layout_marginTop="8dp"
+        android:text="@string/mphakkimizda" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TASARIMCILARIMIZ"
+        android:textSize="25sp"
+        android:id="@+id/tasarimci_title_textview"
+        android:textColor="@color/kumrengi"
+        android:layout_below="@+id/mpdec_textview"
+        android:layout_centerHorizontal="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tasarimci_rifat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tasarimci_title_textview"
+        android:layout_alignStart="@+id/tasarimci_title_textview"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/rifat"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tasarimci_yusuf"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tasarimci_title_textview"
+        android:layout_alignEnd="@+id/tasarimci_title_textview"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/yusuf"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/title_designer_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/tasarimci_yusuf"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/description_designer_textview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=""
+        android:layout_below="@+id/title_designer_name_textview"
+        android:layout_marginTop="16dp"
+        ></TextView>
+
+</RelativeLayout>
+</ScrollView>
