@@ -2,6 +2,9 @@
 MobilyaPlan app version 1.0
 
 
+![MobilyaPlan](https://firebasestorage.googleapis.com/v0/b/mpedit-db695.appspot.com/o/yeniurunler%2Fbiglogo.png?alt=media&token=b90ac207-41c5-4297-86c8-1065b5693641)
+
+
 What is MobilyaPlan?
 Our project is a platform that meets the customer and the manufacturer. 
 Thanks to MobilyaPlan, the customer can make a product he sees on our website (www.mobilyaplan.com) to all members who are members of MobilyaPlan in a comfortable way. 
