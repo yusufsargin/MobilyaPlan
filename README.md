@@ -27,7 +27,7 @@ The MobilyaPlan application provides:
 
 - Current gallery
 
-- It gives ’x dxf’ ’output for CNC cutting of the products that customers like from the gallery to furniture makers.
+- It gives ’dxf’ ’output for CNC cutting of the products that customers like from the gallery to furniture makers.
 Our furnishing members offer the flexibility of programming according to their knife types and CNC speeds.(Comming Soon in Web)
 
 Software developer: Yusuf Sargın
